@@ -6,5 +6,5 @@ exports.encode = function encode(ab) {
 
 exports.decode = function decode(str) {
   var b = Buffer.from(str, 'base64');
-  return b.buffer.slice(b.byteOffset, b.byteOffset + b.byteLength)
+  return new Uint8Array(b.buffer.slice(b.byteOffset, b.byteOffset + b.byteLength));
 };
