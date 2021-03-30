@@ -1,0 +1,26 @@
+{
+  "name": "uint8-to-base64",
+  "version": "1.0.0",
+  "description": "atob and btoa for browsers or node",
+  "dependencies": {
+    "base64-js": "1.5.1"
+  },
+  "main": "index.js",
+  "browser": "browser.js",
+  "typings": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/streamich/uint8-to-base64.git"
+  },
+  "keywords": [
+    "isomorphic",
+    "base64",
+    "browserify",
+    "ascii",
+    "node",
+    "browser",
+    "uint8",
+    "array-buffer"
+  ],
+  "author": "Vadim Dalecky <streamich@gmail.com>"
+}
