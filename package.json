@@ -1,7 +1,7 @@
 {
   "name": "uint8-to-b64",
   "version": "1.0.0",
-  "description": "atob and btoa for browsers or node",
+  "description": "Isomorphic Uint8Array conversion to Base64 string and back for browser and Node.js",
   "dependencies": {
     "base64-js": "1.5.1"
   },
