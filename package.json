@@ -1,5 +1,5 @@
 {
-  "name": "uint8-to-base64",
+  "name": "uint8-to-b64",
   "version": "1.0.0",
   "description": "atob and btoa for browsers or node",
   "dependencies": {
@@ -10,7 +10,7 @@
   "typings": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/streamich/uint8-to-base64.git"
+    "url": "https://github.com/streamich/uint8-to-b64.git"
   },
   "keywords": [
     "isomorphic",
